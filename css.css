@@ -1,0 +1,19 @@
+h4, h5, h6,
+h1, h2, h3 {margin-top: 0;}
+ul, ol {margin: 0;}
+p {margin: 0;}
+html, body{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 100%;
+    background-image: url("https://i.pinimg.com/originals/cb/56/ce/cb56ce8e0f848f9f4ca37f6b8d7dc1d7.png"); 
+}
+body a{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+.container{
+	background-color: red; 
+}
