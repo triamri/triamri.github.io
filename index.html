@@ -1,1 +1,45 @@
-<p>test</p>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta charset="utf-8">
+
+<title>Triamri</title>
+
+
+<link rel="stylesheet" type="text/css" href="dataccs.css"></link>
+
+</head>
+<body>
+<div class="container">
+  <div class="jumbotron" style="margin-top:40px">
+    <h1 style="font-size:58px">Halaman Pertama</h1>
+  </div>
+
+  <div class="row">
+    <div class="span6">
+          <h2>About</h2>
+          <p>
+        bootstrap-wysihtml5 is a javascript plugin that makes it easy to create simple, beautiful wysiwyg editors with the help of <a href="https://github.com/xing/wysihtml5">wysihtml5</a> and <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 3</a>
+      </p>
+
+      <p style="text-align:center; margin-top:20px">
+        <a class="btn btn-large btn-primary jumbo" href="https://github.com/Waxolunist/bootstrap3-wysihtml5-bower/">View project on Github</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<script src="components/wysihtml5/dist/wysihtml5-0.3.0.min.js"></script>
+<script src="components/jquery/jquery.min.js"></script>
+<script src="components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="components/handlebars/handlebars.runtime.min.js"></script>
+<script src="dist/bootstrap3-wysihtml5.min.js"></script>
+
+<script>
+  $('.textarea').wysihtml5();
+</script>
+
+</body>
+</html>
